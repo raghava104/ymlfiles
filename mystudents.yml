@@ -1,0 +1,26 @@
+---
+- mystudents:
+   - name:           anil
+     phone:          8392923398229
+     address:        
+        doorno:      52
+        city:        hyderabad
+
+   - name:           sunil
+     phone:          123456
+     address:        
+        doorno:      45
+        city:        hyderabad
+
+   - name:           rohit
+     phone:          726186789128
+     address:        
+       doorno:       45
+       city:         hyderabad 
+
+
+   - name:           reddy
+     phone:          122344
+     address:        
+        doorno:      45
+        city:        hyderabad       
