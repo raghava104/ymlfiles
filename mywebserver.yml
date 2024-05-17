@@ -1,13 +1,16 @@
 ---
 - hosts: all
   become: yes
+  gather_facts: yes
   tasks:
    - name: install web server
      dnf: 
       name: httpd
       state: present
+     when: ansible_os_family=="RedHat" 
 
    - name: start webserver on redhat nodes
      service:
        name: httpd
        state: started   
+     when: ansible_os_family=="RedHat"  
